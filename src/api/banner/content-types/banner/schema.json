@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banners",
+  "info": {
+    "singularName": "banner",
+    "pluralName": "banners",
+    "displayName": "banner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "enabled": {
+      "type": "boolean"
+    },
+    "title": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "success",
+        "info",
+        "warning",
+        "error",
+        "neutral"
+      ]
+    },
+    "button_label": {
+      "type": "string"
+    },
+    "button_url": {
+      "type": "string"
+    },
+    "button_target": {
+      "type": "enumeration",
+      "enum": [
+        "_self",
+        "_blank"
+      ]
+    }
+  }
+}
